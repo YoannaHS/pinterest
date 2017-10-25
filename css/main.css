@@ -33,6 +33,14 @@ li {
 
 figure {
   outline: 1px solid green;
-  display: inline-block;
   width: 90%;
+  max-width: 1170px;
+  min-width: 800px;
+  margin: 50px auto;
+}
+
+.float {
+  display: inline-block;
+  vertical-align: bottom;
+  float: left;
 }
