@@ -3,14 +3,19 @@
 }
 
 .logo {
-  width: 60px;
+  width: 70px;
   margin: 0px;
   padding: 0px;
-  outline: 1px solid blue;
+  /*outline: 1px solid blue;*/
+  position: absolute;
+  bottom: 590px;
+  left: 60px;
+  cursor: pointer;
 }
 
 hr {
   color: #C3C4C3;
+  margin: 60px;
 }
 
 ul {
@@ -29,18 +34,39 @@ li {
   padding: 20px 25px;
   font-weight: 700px;
   border-radius: 6px;
+  cursor: pointer;
 }
 
-figure {
-  outline: 1px solid green;
-  width: 90%;
+div {
+  /*outline: 1px solid green;*/
+  width: 100%;
   max-width: 1170px;
   min-width: 800px;
   margin: 50px auto;
+  position: relative;
+  left: 100px;
 }
 
-.float {
+.float1, .float2 {
   display: inline-block;
+  cursor: pointer;
   vertical-align: bottom;
   float: left;
+  width: 100%;
+}
+
+img {
+  float: left;
+  width: 250px;
+  margin: 16px;
+  border-radius: 20px;
+}
+
+span {
+  /*background: yellow;*/
+  display: inline-block;
+  float: right;
+  margin: 0px;
+  padding: 20px;
+
 }
